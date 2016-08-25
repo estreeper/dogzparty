@@ -102,13 +102,10 @@ const getPartyAttendees = (partyId) => {
 };
 
 export {
-  dogs,
   getDog,
   getDogOwner,
   getHuman,
   getOwnedDogs,
   getParty,
   getPartyAttendees,
-  humans,
-  parties,
 };

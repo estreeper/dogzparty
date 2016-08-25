@@ -7,15 +7,12 @@ import {
   GraphQLString,
 } from 'graphql';
 import {
-  dogs,
   getDog,
   getDogOwner,
   getHuman,
   getOwnedDogs,
   getParty,
   getPartyAttendees,
-  humans,
-  parties,
 } from './data';
 
 const dogType = new GraphQLObjectType({
