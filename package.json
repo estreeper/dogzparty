@@ -1,0 +1,22 @@
+{
+  "name": "dogzparty",
+  "version": "0.1.0",
+  "description": "Super-simple-sample project for GraphQL presentation.",
+  "repository": "git@github.com:estreeper/dogzparty.git",
+  "scripts": {
+    "start": "babel-node --presets 'es2015' server.js"
+  },
+  "keywords": [],
+  "author": "Eric Streeper <eric@xerb.tv>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.3",
+    "graphql": "^0.6.2"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2"
+  }
+}
