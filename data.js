@@ -84,9 +84,9 @@ const getHuman = (humanId) => {
 };
 
 const getOwnedDogs = (ownerId) => {
-  const dogIds = humans[ownerId].ownedDogs;
+  const dogIds = getHuman(ownerId).ownedDogs;
   const results = [];
-  dogIds.forEach((id) => results.push(getDogOwner(id)))
+  dogIds.forEach((id) => results.push(getDog(id)))
   return results;
 };
 
